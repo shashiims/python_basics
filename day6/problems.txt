@@ -1,0 +1,12 @@
+1. Write a function to display true if the provided character is in
+ a defined string else false
+
+2. Write a function to find and display character count in a string
+
+3. Write a function to return a repeated charactered string. Take input from user.
+(if user types Hello function should return HHeelllloo)
+
+4. Write a function to find minimum and maximum value from given list of numbers.
+
+5. Write a function to hide characters from email except first and last.
+    Replace hidden character with *.
