@@ -1,0 +1,5 @@
+file1 = open("New_file.txt",'x')
+file1.close()
+file = open('New_file.txt','a')
+file.write("Content on newly created file")
+file.close()

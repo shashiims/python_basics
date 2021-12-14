@@ -1,16 +1,17 @@
 
 def hideEmail():
-    print("Please entery your email")
+    print("Please enter your email")
     inputEmail = input()
     hiddenEmail = ""
-
     index = 0
     characterCounts = len(inputEmail)
     lastIndex = characterCounts-1
     for each in inputEmail:
+        if lastIndex == 0:
+            hiddenEmail = "*"
 
-        if index == 0:
-            hiddenEmail += each #hiddenEmail = HiddenEmail+each
+        elif index == 0:
+            hiddenEmail += each  # hiddenEmail = HiddenEmail+each
 
         elif index == lastIndex:
             hiddenEmail += each
@@ -27,4 +28,4 @@ if __name__ == "__main__":
     hideEmail()
 
 
-#Assignment: if character is single print '*' only
+# Assignment: if character is single print '*' only
