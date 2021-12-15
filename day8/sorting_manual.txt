@@ -1,0 +1,19 @@
+list = [4,5,2]
+lengthOfList = 3
+
+iteration 1:
+    i=0, lengthOfList-1 = 3-1 = 2
+    0<2=>True
+        j=0, min_value = list[0] = 4 , currentMinValueIndex=0
+        j=1, min_value = 4, currentMinValueIndex= 0
+        j=2, min_vaue = 2, currentMinValueIndex = 2
+    minIndex = 2, tempVal = 4,
+    list[i]=list[minIndex]=> [2,5,2]
+    list[minIndex] = tempVal => [2,5,4]
+
+iteration2:
+i=1, lengthOfList=2
+1<2=>True
+    j=1, min_value = 5, currentMinValueIndex=1
+    
+
