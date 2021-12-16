@@ -1,0 +1,9 @@
+Learning Algorithms often called optimizing algorithms benefit the network by minimizing the objective
+function (often called loss function E(x)), dependent on various learnable parameters like weight, bias etc. Majorly
+the optimization algorithms can be branched into two categories i.e. first order optimization algorithms and second
+order optimization algorithms. The First Order Optimization include the computation of gradient represented by
+Jacobian matrix, the widely used technique is Gradient Descent. There exist a number of variants of Gradient
+Descent like Mini Batch Gradient Descent and Stochastic Gradient Descent. In order to improve results,
+improvements have done in the variants such as introduction of momentum, Adagrad, AdaDelta.. Whereas Second
+Order Optimization include second order derivative represented by Hessian Matrix. One such technique is Adam
+Optimization. Gradient Descent and Adam Optimization have been briefly explained in the following section
