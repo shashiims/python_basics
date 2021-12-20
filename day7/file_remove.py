@@ -1,3 +1,3 @@
-import os
+import os as o
 
-os.remove("New_file.txt")
+o.remove("New_file.txt")
