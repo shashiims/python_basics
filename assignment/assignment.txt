@@ -1,0 +1,13 @@
+Write a program to take multiple input from users giving them a choice what to do and get results accordingly.
+
+    After running program user should get following in console:
+
+        Press 1 to view current date and time:
+        Press 2 to get your platform details like os name, architecture:
+        Press 3 to take a note and save it in a file named "Notes.txt":
+        Press 4 to view your note:
+        Press "q" or "Q" to quit the program:
+    
+
+    The above list of options are main menu and user should be redirected to main menu on completion of each option from main
+    menu except last option.
